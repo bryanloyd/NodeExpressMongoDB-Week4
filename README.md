@@ -4,11 +4,13 @@ This is a solution to the Week 4 : Backend Services
 
 ## Objective
 
-Demonstrate your understanding of using Passport and Express middleware functions to restrict access to specific endpoints in your application to only certain users.
+Demonstrate your understanding of using the Node.js JavaScript runtime environment to set up a new set of REST API endpoints in an Express server application.
+Demonstrate your understanding of using the MongoDB database with the Mongoose ODM library to set up a Schema and Model for a collection of documents, and interact with the database through your Express server application.
+Demonstrate your ability to use Mongoose population.
 
 ## Instructions
 
-In this assignment, you will be adding more granular control over who is authorized to access which endpoints in your Express server application. You will implement a way to check if a user is an admin, then allow only admins to access certain endpoints. You will also implement allowing users to update or delete the comments that they themselves submitted.
+In this assignment, you will add support for five new endpoints. These endpoints will support GET, POST, and DELETE requests for a user's list of favorite campsites, as well as POST and DELETE requests for a single, specific favorite campsite. You will be working with files in the nucampsiteServer folder.
 
 ## Links
 
